@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+body{
+    
+}
+.container{
+  max-width: 1400px;
+  height: 60rem;
+  padding-top: 4rem;
+  background: url(../img/SMICAF-Finance-bg-image.png.jpg) no-repeat;
+  background-size: auto;
+}
+.bg-img{
+  position: absolute;
+  margin-left: -0.75rem;
+}
+header{
+  position: relative;
+  width: 100%;
+  margin: auto;
+  padding: 0 2rem;
+}
+.heading{
+  color: #202772;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2.7rem;
+  font-style: italic;
+  font-weight: 600;
+}
+b{
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.smicaf-logo{
+  width: 110px;
+  height: 165px;
+}
+.smi-header-img{
+  width: 240px;
+  height: 240px;
+}
+.para-box{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.header-para-02{
+  margin-top: -1.2rem;
+  text-align: right;
+}
+.site-btn{
+  text-decoration: none;
+}
+@media(max-width: 1000px){
+  .smicaf-logo{
+    width: 80px;
+    height: 130px;
+  }
+  .smi-header-img{
+    width: 180px;
+    height: 180px;
+  }
+  .heading{
+    font-size: 2rem;
+  }
+  .header-para-01{
+    font-size: 12px;
+  }
+  .header-para-02{
+    font-size: 12px;
+  }
+}
+@media(max-width: 796px){
+  header{
+    padding: 0;
+  }
+  .smicaf-logo{
+    width: 50px;
+    height: 90px;
+  }
+  .smi-header-img{
+    width: 140px;
+    height: 140px;
+  }
+  .heading{
+    font-size: 1.7rem;
+  }
+  .header-para-01{
+    font-size: 11px;
+  }
+  .header-para-02{
+    font-size: 11px;
+  }
+}
+@media(max-width: 620px){
+  .heading{
+    font-size: 1.5rem;
+  }
+  .header-para-01{
+    font-size: 10px;
+  }
+  .header-para-02{
+    font-size: 10px;
+    text-align: left;
+  }
+
+}
+@media(max-width: 580px){
+  .heading{
+    font-size: 1.5rem;
+  }
+  .header-para-01{
+    font-size: 9px;
+  }
+  .header-para-02{
+    font-size: 9px;
+    text-align: left;
+  }
+
+}
+@media(max-width: 540px){
+  header{
+    padding: 0;
+  }
+  .smicaf-logo{
+    width: 50px;
+    height: 70px;
+  }
+  .smi-header-img{
+    width: 100px;
+    height: 100px;
+  }
+  .header-content{
+    width: 18rem;
+  }
+  .para-box{
+    position: relative;
+  }
+  .heading{
+    font-size: 1rem;
+  }
+  .header-para-01{
+    font-size: 8px;
+  }
+  .header-para-02{
+    font-size: 8px;
+    text-align: start;
+  }
+}
+@media(max-width: 465px){
+  header{
+    padding: 0;
+    gap: 1rem;
+  }
+  .smicaf-logo{
+    width: 40px;
+    height: 60px;
+  }
+  .smi-header-img{
+    width: 80px;
+    height: 80px;
+  }
+  .para-box{
+    position: relative;
+    width: auto;
+  }
+  .heading{
+    font-size: 0.8rem;
+  }
+  .header-para-01{
+    font-size: 8px;
+  }
+  .header-para-02{
+    font-size: 8px;
+    text-align: start;
+  }
+}
+@media(max-width: 425px){
+  header{
+    padding: 0;
+    gap: 1rem;
+  }
+  .smicaf-logo{
+    width: 40px;
+    height: 60px;
+  }
+  .smi-header-img{
+    width: 80px;
+    height: 80px;
+  }
+  .para-box{
+  }
+  .heading{
+    font-size: 0.9rem;
+  }
+  .header-para-01{
+    font-size: 6.2px;
+  }
+  .header-para-02{
+    font-size: 6.2px;
+    padding-top: 4px;
+    text-align: start;
+  }
+}
+/* Navbar-Section */
+#navbar{
+  position: relative;
+  width: auto;
+  height: 4rem;
+  padding-top: 4rem;
+  margin: auto;
+}
+nav{
+  padding: 0 1rem;
+  gap: 1rem;
+}
+.btn{
+  border-radius: 0;
+  width: 20.5rem;
+  text-align: start;
+  background-color: #ed1c24;
+  transition: ease-in-out .6s;
+}
+.btn:hover{
+  background-color: #f4161e;
+}
+.dropdown{
+  position: relative;
+}
+.dropdown-menu{
+  position: relative;
+  width: 11rem;
+  background: none;
+  border: none;
+}
+.dropdown-menu{
+  font-size: 20px;
+  font-weight: 700;
+}
+.dd-item-01{
+  font-size: 24px;
+  color: #fbff00;
+}
+.dd-item-01:hover{
+  background-color: #ed1c2300;
+  color: rgb(245, 255, 58);
+}
+.dd-item-02{
+  color: aliceblue;
+}
+.dd-item-02:hover{
+  background-color: #ed1c2300;
+  color: rgb(14, 14, 15);
+}
+@media(max-width: 1000px){
+  .btn{
+    position: relative;
+    width: 16rem;
+  }
+  .dropdown-menu{
+    font-size: 1rem;
+  }
+  .dd-item-01{
+    font-size: 1rem;
+  }
+}
+@media(max-width: 795px){
+  .btn{
+    width: 10rem;
+  }
+  .dropdown-menu{
+    font-size: 0.8rem;
+  }
+  .dd-item-01{
+    font-size: 0.8rem;
+  }
+}
+@media(max-width: 610px){
+  nav{
+    padding: 0 2px;
+    gap: 4px;
+  }
+  .btn{
+    width: 100%;
+    font-size: 0.7rem;
+  }
+  .dropdown-menu{
+    font-size: 0.7rem;
+  }
+  .dd-item-01{
+    font-size: 0.7rem;
+  }
+}
+@media(max-width: 415px){
+  .btn{
+    width: 100%;
+    font-size: 0.5rem;
+  }
+  .dropdown-menu{
+    font-size: 0.5rem;
+  }
+  .dd-item-01{
+    font-size: 0.5rem;
+    margin-left: -1rem;
+  }
+  .dd-item-02{
+    margin-left: 4rem;
+  }
+
+}
+@media(max-width: 350px){
+  .btn{
+    width: 100%;
+    font-size: 0.4rem;
+  }
+  .dropdown-menu{
+    font-size: 0.4rem;
+  }
+  .dd-item-01{
+    font-size: 0.5rem;
+  }
+}
